@@ -256,11 +256,12 @@
 
 // using push 
 
-let arr1 = [12,2,3];
-let arr2 = [4,5,6];
-arr1.push(...arr2);
-const sortedArr = arr1.sort(function(a,b){
-return a-b
-})
+// let arr1 = [12,2,3];
+// let arr2 = [4,5,6];
+// arr1.push(...arr2);
+// const sortedArr = arr1.sort(function(a,b){
+// return a-b
+// })
 
-console.log(sortedArr);
+// console.log(sortedArr);
+

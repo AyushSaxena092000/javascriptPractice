@@ -225,4 +225,42 @@
 //   }
 // }
 
+// how to merged two arrays in javascript ?
 
+// first method 
+
+// const arr1 = ['1','8','9']
+// const arr2 = ['45','7','19']
+
+// using concat
+
+// const finalArr = arr1.concat(arr2);
+// const sortedArr = finalArr.sort(function(a,b){
+// return a-b
+// })
+// console.log(sortedArr);
+
+// second method
+
+// using spread
+
+// const arr1 = ['12','8','9']
+// const arr2 = ['45','7','19']
+
+// const result = [...arr1,...arr2]
+// const sortedArr = result.sort(function(a,b){
+// return a-b
+// })
+// console.log(sortedArr);
+
+
+// using push 
+
+let arr1 = [12,2,3];
+let arr2 = [4,5,6];
+arr1.push(...arr2);
+const sortedArr = arr1.sort(function(a,b){
+return a-b
+})
+
+console.log(sortedArr);

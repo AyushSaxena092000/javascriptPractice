@@ -164,7 +164,7 @@
 // const total = findSum(numbers);
 // console.log("The sum of all elements is:" + total);
 
-// how to find factorial of a given number in Javascript ?
+// 7. how to find factorial of a given number in Javascript ?
 
 // The factorial of a number is the product of all number from 1 to that number.The
 
@@ -197,5 +197,32 @@
 // const num = 5;
 // const result = factorialLoop(num);
 // console.log(`Factorial of ${num} is: ${result}`);
+
+// 5. how to find prime number in Javascript ?
+
+// prime numbers are those which are divide by itself or 1.
+// for example = 2,3,5,7,11,13,17,19
+
+// prime number of negative number is not possible.
+
+// var number = 2;
+// if (number == 1) {
+//   console.log(`${number} is not prime neither composite`);
+// } else if (number < 1) {
+//   console.log(`prime number of ${number} is not possible`);
+// } else {
+//   let isPrime = true; // Assume the number is prime initially
+//   for (let i = 2; i < number; i++) {
+//     if (number % i == 0) {
+//       isPrime = false; // If the number is divisible by any number other than 1 and itself, it's not prime
+//       break;
+//     }
+//   }
+//   if (isPrime) {
+//     console.log(`${number} is prime number`);
+//   } else {
+//     console.log(`${number} is not prime number`);
+//   }
+// }
 
 
